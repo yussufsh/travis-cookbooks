@@ -28,7 +28,7 @@ global_gems = Array(
 ).map { |g| g[:name] }.join(' ')
 
 packages = value_for_platform_family(
-  'ubuntu' => %w[
+  'debian' => %w[
     automake
     bash
     bison
